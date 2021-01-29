@@ -8,4 +8,4 @@ Simple application that uses Microsoft Word application to convert PDF files to 
 3. Click Convert
 4. The DOCX file will now exist in the same location as the PDF file you Drag & Dropped
 
-This made more the everyday user who may not know how to perform the conversion.
+This was made for the everyday user who may not know how to perform the conversion.
