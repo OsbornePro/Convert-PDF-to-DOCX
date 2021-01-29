@@ -1,0 +1,1958 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>SautinSoft.PdfFocus</name>
+  </assembly>
+  <members>
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ChannelDefinitionMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ChannelDefinitionMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ChannelDefinitionMapper.getFixedPoint(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ColorSpaceMapper.getFixedPoint(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.EnumeratedColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.EnumeratedColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.EsRgbColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.ToString" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getCompImgHeight(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.Resampler.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.Resampler.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.SYccColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.SYccColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Icc.ICCProfiler.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Icc.ICCProfiler.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.Icc.Tags.ICCTag" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.codestream.ProgressionType" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.codestream.reader.PktDecoder.ttIncl" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.codestream.writer.BitOutputBuffer" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.codestream.writer.BitOutputBuffer.Length" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.codestream.writer.BitOutputBuffer.Buffer" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.BitOutputBuffer.writeBit(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.BitOutputBuffer.writeBits(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.CodestreamWriter.writePacketHead(System.Byte[],System.Int32,System.Boolean,System.Boolean,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.codestream.writer.FileCodestreamWriter" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.FileCodestreamWriter.writePacketHead(System.Byte[],System.Int32,System.Boolean,System.Boolean,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.FileCodestreamWriter.writePacketBody(System.Byte[],System.Int32,System.Boolean,System.Boolean,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.codestream.writer.PktEncoder.prevtIdxs" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.CBlkSizeSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.CBlkSizeSpec.getCBlkWidth(System.Byte,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.decoder.EntropyDecoder" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.EntropyDecoder.getSynSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.fastDecodeSymbols(System.Int32[],System.Int32,System.UInt32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.decodeSymbols(System.Int32[],System.Int32[],System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.decodeSymbol(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.init" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.state" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.getCodeBlock(System.Int32,System.Int32,System.Int32,CSJ2K.j2k.wavelet.synthesis.SubbandSyn,CSJ2K.j2k.image.DataBlk)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.magRefPass(CSJ2K.j2k.image.DataBlk,CSJ2K.j2k.entropy.decoder.MQDecoder,System.Int32,System.Int32[],System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.rawMagRefPass(CSJ2K.j2k.image.DataBlk,CSJ2K.j2k.entropy.decoder.ByteToBitInput,System.Int32,System.Int32[],System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.cleanuppass(CSJ2K.j2k.image.DataBlk,CSJ2K.j2k.entropy.decoder.MQDecoder,System.Int32,System.Int32[],System.Int32[],System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.encoder.EBCOTRateAllocator.getAllCodeBlocks" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.encoder.EntropyCoder.isReversible(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.encoder.MQCoder" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.encoder.MQCoder.fastCodeSymbols(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.PrecinctSizeSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.fileformat.reader.FileFormatReader.readJP2HeaderBox(System.Int64,System.Int32,System.Int64)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.fileformat.reader.FileFormatReader.readContiguousCodeStreamBox(System.Int64,System.Int32,System.Int64)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.BlkImgDataSrc" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.BlkImgDataSrc.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.BlkImgDataSrc.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgData.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataAdapter.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataConverter.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataConverter.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.#ctor(CSJ2K.j2k.image.BlkImgDataSrc[],System.Int32[])" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.input.ImgReaderPGM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGM.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGM.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGM.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.input.ImgReaderPGX" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGX.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGX.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGX.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.input.ImgReaderPPM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPPM.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPPM.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPPM.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.getFixedPoint(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.setTile(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.nextTile" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.output.ImgWriterPGM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPGM.#ctor(System.String,CSJ2K.j2k.image.BlkImgDataSrc,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.output.ImgWriterPGX" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPGX.#ctor(System.String,CSJ2K.j2k.image.BlkImgDataSrc,System.Int32,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.output.ImgWriterPPM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPPM.write" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPPM.writeHeaderInfo" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.Tiler.#ctor(CSJ2K.j2k.image.BlkImgDataSrc,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.io.BinaryDataOutput" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.io.BinaryDataOutput.writeByte(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.io.BinaryDataOutput.writeShort(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.io.BufferedRandomAccessFile" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.io.BufferedRandomAccessFile.writeByte(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.io.EndianType_Fields" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.JJ2KExceptionHandler" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.JJ2KExceptionHandler.handleException(System.Exception)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.ModuleSpec.parseIdx(System.String,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.NotImplementedError" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.NotImplementedError.#ctor" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.quantization.dequantizer.CBlkQuantDataSrcDec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.getSynSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.setTile(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.nextTile" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.quantization.dequantizer.StdDequantizerParams.exp" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.quantization.dequantizer.StdDequantizerParams.nStep" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.quantization.QuantizationType_Fields" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.quantizer.Quantizer.getAnSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.quantization.QuantTypeSpec" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.ArbROIMaskGenerator" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.encoder.ArbROIMaskGenerator.getROIMask(CSJ2K.j2k.image.DataBlkInt,CSJ2K.j2k.wavelet.Subband,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.encoder.ArbROIMaskGenerator.makeMask(CSJ2K.j2k.wavelet.Subband,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.RectROIMaskGenerator" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.encoder.RectROIMaskGenerator.getROIMask(CSJ2K.j2k.image.DataBlkInt,CSJ2K.j2k.wavelet.Subband,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.ROIMaskGenerator" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.ROIScaler" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.ROIDeScaler.getSynSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.StringSpec.#ctor(System.Int32,System.Int32,System.Byte,System.String,System.String[],CSJ2K.j2k.util.ParameterList)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.FacilityManager" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.ISRandomAccessIO" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.MsgLogger_Fields" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.MsgPrinter.nextLineEnd(System.String,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.MsgPrinter.nextWord(System.String,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ParameterList.parseArgs(System.String[])" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.ThreadPool" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.ThreadPoolThread.Run" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.#ctor(System.Int32,System.Int32,System.String)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.runTarget(IThreadRunnable,System.Object)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.runTarget(IThreadRunnable,System.Object,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.clearTargetErrors" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.putInIdleList(CSJ2K.j2k.util.ThreadPool.ThreadPoolThread)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.getIdle(System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloat" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynLowNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynLowPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynHighNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynHighPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.analyze_lpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.analyze_hpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.getLPSynthesisFilter" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.getHPSynthesisFilter" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.isSameAsFullWT(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.Equals(System.Object)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.analysis.AnWTFilterInt" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterIntLift5x3.analyze_hpf(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterSpec.getHFilters(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterSpec.getVFilters(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.CBlkWTDataSrcDec.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.InvWTFull.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.MultiResImgDataAdapter.getCompImgHeight(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilter" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloat" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynLowNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynLowPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynHighNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynHighPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.synthetize_lpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.synthetize_hpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.isSameAsFullWT(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilterInt" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.WTDecompSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.#ctor(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.getDecSpecType(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.getDecompType(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.getLevels(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.WTFilterSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTFilterSpec.#ctor(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTFilterSpec.getKerSpecType(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:jj2000.j2k.util.NativeServices" -->
+    <!-- Badly formed XML comment ignored for member "P:jj2000.j2k.util.NativeServices.ThreadConcurrency" -->
+    <!-- Badly formed XML comment ignored for member "M:SupportClass.Tokenizer.MoveNext" -->
+    <member name="T:SautinSoft.PdfFocus">
+      <summary>
+            PDF Focus .Net is designed to convert PDF documents to All formats.
+            </summary>
+      <remarks>
+        <p>PDF Focus .Net is designed to help you in development of applications where is necessary to convert any PDF documents. Let's see what the component can do for you:</p>
+        <br />
+        <ul>
+          <li>Convert PDF to Word, DOCX, RTF with tables, images, full text formatting</li>
+          <li>Convert PDF to Text</li>
+          <li>Convert PDF to HTML with full text formatting, images, CSS</li>
+          <li>Convert PDF to Excel workbooks</li>
+          <li>Convert PDF to Images: Jpeg, Png, Bmp, Tiff, Multipage-Tiff, System.Drawing.Image.</li>
+          <li>Convert PDF to XML workbooks</li>
+          <li>Extract images from PDF</li>
+          <li>Get the number of pages in PDF and their sizes</li>
+          <li>Convert only a specific page or diapason of pages from a PDF document</li>
+          <li>Manipulate with PDF documents as files, streams, urls</li>
+          <li>Works in Medium Trust level and shared hosting</li>
+          <li>Requirements: .NET Framework 4.0 or up; .NET Core 2.0 or up.</li>
+        </ul>
+      </remarks>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.eImageFormat">
+      <summary>
+            Specifies the image format embedded in the output document. Default value: <see cref="F:SautinSoft.PdfFocus.eImageFormat.Auto" />.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\ASP.Net - PDF Viewer\Default.aspx.cs" title="How to make PDF Viewer in ASP.Net and C#">
+        </code>
+        <code lang="html" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\ASP.Net - PDF Viewer\Default.aspx" title="ASPX code">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\ASP.Net - PDF Viewer\Default.aspx.vb" title="How to make PDF Viewer in ASP.Net and VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.eImageFormat.Auto">
+      <summary>
+            Default. In this case the embedded images will keep their original format. The Jpeg images will be stored using Jpeg codec, the all others as PNG.
+            </summary>
+      <remarks>
+            Together with this option you can also control jpeg quality, using the property <see cref="P:SautinSoft.PdfFocus.EmbeddedJpegQuality">EmbeddedJpegQuality</see>.
+            </remarks>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.eImageFormat.Jpeg">
+      <summary>
+            Force to convert all images into Jpeg format. Be careful: using Jpeg for images you can reduce the PDF size, but could lose the transparency.
+            </summary>
+      <remarks>
+            Together with this option you can also control jpeg quality, using the property <see cref="P:SautinSoft.PdfFocus.EmbeddedJpegQuality">EmbeddedJpegQuality</see>.
+            </remarks>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.eImageFormat.Png">
+      <summary>
+            Force to convert all images into Png format.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.COCROptions">
+      <summary>
+            Class allowing to attach any OCR library to PDF Focus .Net.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\OCR\Perform OCR using free Tesseract SDK\Sample.cs" title="Perform OCR using free Tesseract SDK in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\OCR\Perform OCR using free Tesseract SDK\Sample.vb" title="Perform OCR using free Tesseract SDK in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.COCROptions.#ctor">
+      <summary>
+            Default constructor. By default, the OCR is disabled.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.COCROptions.eOCRMode">
+      <summary>
+            Represent OCR modes: Disable (default), All images, Automatic.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\OCR\Perform OCR using free Tesseract SDK\Sample.cs" title="Perform OCR using free Tesseract SDK in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\OCR\Perform OCR using free Tesseract SDK\Sample.vb" title="Perform OCR using free Tesseract SDK in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.COCROptions.eOCRMode.Disabled">
+      <summary>
+            Don't make OCR (optical recognizing) for images at all. The images will be placed into resulting document as is.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.COCROptions.eOCRMode.AllImages">
+      <summary>
+            Perform the OCR (optical recognizing) for every image. 
+            Note, the component will consider the every image as textual data scanned or photographed and try to recognize it.
+            In any case (successfully or failing) recognizing (OCR) the all images will NOT be placed in the resulting document.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.COCROptions.eOCRMode.Auto">
+      <summary>
+            Perform the OCR (optical recognizing) for images that looks as scanned or photographed text. 
+            Such images (after performing OCR) will be placed in the resulting document as text. 
+            Other images will be placed in the resulting document as images.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.COCROptions.OCRMethod">
+      <summary>
+            Delegate to perform OCR (any 3rd party). We offer free libraries: Tesseract (https://github.com/tesseract-ocr/tesseract) or Nicomsoft (https://www.nicomsoft.com/nicomsoft-ocr-sdk-is-freeware-now).
+            </summary>
+      <param name="image">An input image</param>
+      <returns>The result of OCR as PDF document. Note, your OCR library (for example, Nicomsoft or Tessetact) must the option to returns the OCR result as PDF documents.</returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\OCR\Perform OCR using free Tesseract SDK\Sample.cs" title="Perform OCR using free Tesseract SDK in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\OCR\Perform OCR using free Tesseract SDK\Sample.vb" title="Perform OCR using free Tesseract SDK in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.COCROptions.Method">
+      <summary>
+            Method to perform OCR (any 3rd party). We offer free library from Nicomsoft: https://www.nicomsoft.com/nicomsoft-ocr-sdk-is-freeware-now.
+            </summary>
+      <remarks>
+            Thus, you method has to accept an image and return the recognizing result in PDF format.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.COCROptions.Mode">
+      <summary>
+            Set the OCR mode: Disable (default), All images, Automatic.
+            </summary>
+      <remarks>
+            Disabled - don't make OCR (optical recognizing) for images at all. The images will be placed into resulting document as is.<br /><br />
+            AllImages - Perform the OCR (optical recognizing) for every image. Note, the component will consider the every image as textual data scanned or photographed and try to recognize it.
+            In any case (successfully or failing) recognizing (OCR) the all images will NOT be placed in the resulting document.<br /><br />
+            AllImages - Perform the OCR (optical recognizing) for images that looks as scanned or photographed text. Such images (after performing OCR) will be placed in the resulting document as text. Other images will be placed in the resulting document as images.
+            </remarks>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CWordOptions">
+      <summary>
+            Allows to specify various properties for Word document: format (Docx or Rtf), how to detect tables and so forth.
+            </summary>
+      <remarks>
+            All properties are already set to their defaults:<br /><br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.Format" /> = eWordDocument.Docx;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.DetectTables" /> = false;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.RenderMode" /> = eRenderMode.Flowing;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.KeepCharScaleAndSpacing" /> = true;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.ShowInvisibleText" /> = false;<br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CWordOptions.#ctor">
+      <summary>
+            Allows to specify various properties for Word document: format (Docx or Rtf), how to detect tables and so forth.
+            </summary>
+      <remarks>
+            All properties are already set to their defaults:<br /><br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.Format" /> = eWordDocument.Docx;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.DetectTables" /> = false;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.RenderMode" /> = eRenderMode.Flowing;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.KeepCharScaleAndSpacing" /> = true;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.ShowInvisibleText" /> = false;<br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CWordOptions.eRenderMode">
+      <summary>
+            Gets or sets a rendering mode for a resulting Word document: Flowing, Continuous or Exact.
+            </summary>
+      <remarks>
+            Default value: <see cref="F:SautinSoft.PdfFocus.CWordOptions.eRenderMode.Flowing" />.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CWordOptions.eRenderMode.Flowing">
+      <summary>
+            The most useful and common type of Word document for editing. The resulting Word document looks as if it was typed by human.
+            </summary>
+      <remarks>
+            The document layout created without using text boxes. This is very convenient for editing and a resulting Word document looks as typed by a human.
+            </remarks>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CWordOptions.eRenderMode.Continuous">
+      <summary>
+            A golden mean between <see cref="F:SautinSoft.PdfFocus.CWordOptions.eRenderMode.Flowing" /> and <see cref="F:SautinSoft.PdfFocus.CWordOptions.eRenderMode.Exact" /> modes.
+            </summary>
+      <remarks>
+            The document layout created by using text boxes grouped in blocks.
+            </remarks>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CWordOptions.eRenderMode.Exact">
+      <summary>
+            The most precise and fastest mode. The resulting Word document looks exact as PDF pixel by pixel.
+            </summary>
+      <remarks>
+            The document layout created by using text boxes, this gives a monumental accuracy for  PDF to Word conversion. Because all text in PDF documents builded by coordinates and using text boxes allows to build Word document in the same way.
+            </remarks>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CWordOptions.eWordDocument">
+      <summary>
+            Represents Word document formats: DOCX and RTF.
+            </summary>
+      <remarks>
+            You may choose in what format the Word document will be saved: DOCX or RTF.
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Set output format to DOCX or RTF\Sample.cs" title="How to specify a format for Word document (Docx or Rtf) in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Set output format to DOCX or RTF\Sample.vb" title="How to specify a format for Word document (Docx or Rtf) in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CWordOptions.eWordDocument.Rtf">
+      <summary>
+            Word document in a RTF format.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CWordOptions.eWordDocument.Docx">
+      <summary>
+            Word document in a DOCX format.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CWordOptions.Format">
+      <summary>
+            Gets or sets a format for a resulting Word document: DOCX and RTF. Default value: <see cref="F:SautinSoft.PdfFocus.CWordOptions.eWordDocument.Docx" />.
+            </summary>
+      <remarks>
+            You may choose in what format the Word document will be saved: DOCX or RTF.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Set output format to DOCX or RTF\Sample.cs" title="How to specify a format for Word document (Docx or Rtf) in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Set output format to DOCX or RTF\Sample.vb" title="How to specify a format for Word document (Docx or Rtf) in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CWordOptions.RenderMode">
+      <summary>
+            Gets or sets a rendering mode for a resulting Word document: Flowing, Continuous or Exact. Default value: <see cref="F:SautinSoft.PdfFocus.CWordOptions.eRenderMode.Flowing" />.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CWordOptions.DetectTables">
+      <summary>
+            Gets or sets a value to parse and recreate tables. Default value: false.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CWordOptions.ShowInvisibleText">
+      <summary>
+            Gets or sets a value to show invisible text or not. Default value: false.
+            </summary>
+      <remarks>
+            Sometimes a PDF document can contain a picture with a scanned text. 
+            Besides of this, this document can contain invisible text over this picture.<br />
+            In case you need to get only that text and skip picture, you may set 'PreserveImages' to false and
+            set this property to true.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CWordOptions.KeepCharScaleAndSpacing">
+      <summary>
+            Gets or sets a value to preserve the original char scaling and spacing or reset it to all symbols to 100%. Default value: true.
+            </summary>
+      <remarks> 
+            As you may know PDF contains embedded fonts with own symbol widths.
+            But the resulting Word document will have fonts installed at your system.
+            Sometimes their have different symbol width.<br />
+            true - scale width of symbols to make it the same as in PDF.<br />
+            false - don't scale width of symbols and use width of installed fonts.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CImageOptions">
+      <summary>
+            Set properties for produced images
+            </summary>
+      <remarks>
+            For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">
+      <summary>
+            Set a color depth for the produced image. Default value: 24 bit RGB.
+            </summary>
+      <remarks>
+            Color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB.
+            </remarks>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CImageOptions.eColorDepth.BlackWhite1bpp">
+      <summary>
+            Black and White 1-bit index image.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CImageOptions.eColorDepth.Grayscale8bpp">
+      <summary>
+            Grayscale 8-bit.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CImageOptions.eColorDepth.Grayscale24bpp">
+      <summary>
+            Grayscale 24-bit
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CImageOptions.eColorDepth.Rgb24bpp">
+      <summary>
+            Colored 24-bit, Truecolor
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CImageOptions.eColorDepth.Grayscale32bpp">
+      <summary>
+            Grayscale 32-bit
+            </summary>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CImageOptions.eColorDepth.Rgb32bpp">
+      <summary>
+            Colored 32-bit
+            </summary>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CImageOptions.#ctor">
+      <summary>
+            Set the options for the resulting images.
+            </summary>
+      <remarks>
+            For example, you may specify:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageOptions.JpegQuality">
+      <summary>
+            Allows to specify the quality for output jpeg images from 1 to 100. Default value: 90.
+            </summary>
+      <remarks>
+            This property affects only during the PDF to Jpeg conversion.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageOptions.TiffCompressionType">
+      <summary>
+            Allows to set compression type for Tiff images: CompressionLZW , CompressionCCITT3, CompressionCCITT4. Default value: <see cref="F:System.Drawing.Imaging.EncoderValue.CompressionLZW" />.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageOptions.RenderTextualData">
+      <summary>
+            Setting this property to false allows to skip the rendering of all textual data. Default value: true.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageOptions.Dpi">
+      <summary>
+            Set the default image resolution in dots per inch. Default value: 200.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Set custom dpi\Sample.cs" title="How to set custom dpi in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Set custom dpi\Sample.vb" title="How to set custom dpi in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageOptions.ColorDepth">
+      <summary>
+            Set a color depth for the produced images. Default value: <see cref="F:SautinSoft.PdfFocus.CImageOptions.eColorDepth.Rgb24bpp" />.
+            </summary>
+      <remarks>
+            Color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF to 1-bit black and white PNG\Sample.cs" title="How to set color depth in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF to 1-bit black and white PNG\Sample.vb" title="How to set color depth in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">
+      <summary>
+            Set the format for the resulting images. Default value: <see cref="P:System.Drawing.Imaging.ImageFormat.Png" />.
+            </summary>
+      <remarks>
+            Set format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />.
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Set Image Format\Sample.cs" title="How to set image format in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Set Image Format\Sample.vb" title="How to set image format in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CImageOptions.Resize(System.Drawing.Size,System.Boolean)">
+      <summary>
+            Set custom image dimensions in pixels
+            </summary>
+      <remarks>Allows to set a custom image width and height or a one of it.</remarks>
+      <param name="sizeInPixels">Structure to store values of width and height in px</param>
+      <param name="preserveAspectRatio">Keep aspect ratio in case of true value</param>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF into specified Image height and width\Sample.cs" title="How to convert PDF into specified Image height &amp; width in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF into specified Image height and width\Sample.vb" title="How to convert PDF into specified Image height &amp; width in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CImageOptions.Resize(System.Drawing.SizeF,System.Boolean)">
+      <summary>
+            Set custom image dimensions in points
+            </summary>
+      <remarks>Allows to set a custom image width and height or a one of it.</remarks>
+      <param name="sizeInPoints">Structure to store values of width and height in points</param>
+      <param name="preserveAspectRatio">Keep aspect ratio in case of true value</param>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF into specified Image height and width\Sample.cs" title="How to convert PDF into specified Image height &amp; width in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF into specified Image height and width\Sample.vb" title="How to convert PDF into specified Image height &amp; width in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CImageOptions.Resize(System.Single,System.Single)">
+      <summary>
+            Set image scale in percents
+            </summary>
+      <remarks>Allows to set a custom image width and height or a one of it.</remarks>
+      <param name="scaleWidth">Set scale for width</param>
+      <param name="scaleHeight">Set scale for height</param>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF into specified Image height and width\Sample.cs" title="How to convert PDF into specified Image height &amp; width in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF into specified Image height and width\Sample.vb" title="How to convert PDF into specified Image height &amp; width in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CImageOptions.ResetResizing">
+      <summary>
+            Clear all previous resizing
+            </summary>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CHtmlOptions">
+      <summary>
+            Allows to specify various properties for HTML document: title, how to store images, inline CSS and so forth.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CHtmlOptions.#ctor">
+      <summary>
+            The default constructor for the CHtmlOptions class.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode">
+      <summary>
+            Gets or sets the rendering mode for the output HTML: Fixed or Flowing. Default value: <see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Fixed" />. 
+            </summary>
+      <remarks>
+            The HTML-<see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Fixed" /> is better to use for rendering, because it completely mirrors the PDF layout with structure of pages.<br /><br />
+            The HTML-<see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Flowing" /> is better for further processing: editing and combining. The markup of such documents has a flowing structure. It's much simple for understanding by a human. But the resulting HTML document may look not exactly the same as input PDF pixel by pixel.<br /><br />
+            Default value: <see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Fixed" />.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Difference between Fixed and Flowing HTML\Sample.cs" title="Convert PDF to HTML-Fixed and HTML-Flowing formats using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Difference between Fixed and Flowing HTML\Sample.vb" title="Convert PDF to HTML-Fixed and HTML-Flowing formats using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Fixed">
+      <summary>
+            The Fixed HyperText Markup Language (HTML) format. The most accurate mode. The resulting HTML document looks exact as PDF pixel by pixel.
+            </summary>
+      <remarks>
+            The document layout created by using text boxes, this gives a monumental accuracy for the PDF to HTML conversion. Because all text in PDF documents builded by coordinates and using text boxes allows to build HTML in the same way.
+            </remarks>
+    </member>
+    <member name="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Flowing">
+      <summary>
+            The Flowing HyperText Markup Language (HTML) format. The most useful and common type of HTML document for editing. The resulting HTML document looks as if it was typed by human.
+            </summary>
+      <remarks>
+            The document layout created without using text boxes. This is very convenient for editing and a resulting HTML document looks as typed by a human.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.RenderMode">
+      <summary>
+            Gets or sets the rendering mode for the output HTML: Fixed or Flowing. Default value: <see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Fixed" />.
+            </summary>
+      <remarks>
+            The HTML-<see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Fixed" /> is better to use for rendering, because it completely mirrors the PDF layout with structure of pages.<br /><br />
+            The HTML-<see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Flowing" /> is better for further processing: editing and combining. The markup of such documents has a flowing structure. It's much simple for understanding by a human. But the resulting HTML document may look not exactly the same as input PDF pixel by pixel.<br /><br />
+            Default value: <see cref="F:SautinSoft.PdfFocus.CHtmlOptions.eHtmlRenderMode.Fixed" />.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Difference between Fixed and Flowing HTML\Sample.cs" title="Convert PDF to HTML-Fixed and HTML-Flowing formats using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Difference between Fixed and Flowing HTML\Sample.vb" title="Convert PDF to HTML-Fixed and HTML-Flowing formats using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.ShowInvisibleText">
+      <summary>
+            Gets or sets a value to show invisible text or not. Default value: false.
+            </summary>
+      <remarks>
+            Sometimes a PDF document can contain a picture with a scanned text. 
+            Besides of this, this document can contain invisible text over this picture.<br />
+            In case you need to get only that text and skip picture, you may set 'PreserveImages' to false and
+            set this property to true.<br /><br /></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.DetectTables">
+      <summary>
+            Gets or sets a value to parse and recreate tables. Default value: false.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.KeepCharScaleAndSpacing">
+      <summary>
+            Gets or sets a value to preserve the original char scaling and spacing or reset it to all symbols to 100%. Default value: true.
+            </summary>
+      <remarks> 
+            As you may know PDF contains embedded fonts with own symbol widths.
+            But the resulting HTML will be rendered using the fonts installed at your system.
+            Sometimes their have different symbol width.<br />
+            true - scale width of symbols to make it the same as in PDF.<br />
+            false - don't scale width of symbols and use width of installed fonts.<br /><br /></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.InlineCSS">
+      <summary>
+            Gets or sets a value whether to store CSS as inline for the each element using the "style" attribute or embed the whole style sheet inside HTML. Default value: false.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert multiple PDF files to HTML\Sample.cs" title="How to convert multiple PDF files to HTML using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert multiple PDF files to HTML\Sample.vb" title="How to convert multiple PDF files to HTML using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.UseNumericCharacterReference">
+      <summary>
+            In case of 'true': Write the all characters in "<a href="http://en.wikipedia.org/wiki/Numeric_character_reference" target="_blank">NCR</a>" notation: &amp;#xxx;. In case of 'false': Write the all characters as Unicode (recommended). Default value: false.
+            </summary>
+      <remarks>
+            A numeric character reference (NCR) is a common markup construct used in SGML and other SGML-related markup languages such as HTML and XML. It consists of a short sequence of characters that, in turn, represent a single character from the Universal Character Set (UCS) of Unicode.<br /><br />
+            See details in <a href="http://en.wikipedia.org/wiki/Numeric_character_reference" target="_blank">Wikipedia ...</a></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.ProduceOnlyHtmlBody">
+      <summary>
+            Gets or sets a value to produce a complete HTML document or only between between &lt;body&gt;...&lt;/body&gt; tags. Default value: false.
+            </summary>
+      <remarks>
+            In case of 'True' you will get only HTML between &lt;body&gt;...&lt;/body&gt; tags.<br />
+            This property will be useful to merge multiply HTML documents into a single.
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert multiple PDF files to HTML\Sample.cs" title="How to convert multiple PDF files to HTML using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert multiple PDF files to HTML\Sample.vb" title="How to convert multiple PDF files to HTML using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.SingleFontFamily">
+      <summary>
+            Set a single font family for a whole text in the HTML document. Default value: <see cref="F:System.String.Empty" />. We recommend use it only in the Flowing mode, in the Fixed mode it may shift/spoil to the document layout.
+            </summary>
+      <remarks>
+            By default each block of text will have the same font family as in the original document.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.SingleFontSize">
+      <summary>
+            Set a single font size in points (pt) for a whole text in the produced HTML document. Default value: null. We recommend use it only in the Flowing mode, in the Fixed mode it may shift/spoil to the document layout.
+            </summary>
+      <remarks>
+            By default each block of text will have the same font size as in the original document.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.SingleFontColor">
+      <summary>
+            Sets or gets a single font color in hex format '#XXXXXX' for a whole text in the produced HTML document. Default value: <see cref="F:System.String.Empty" />.
+            </summary>
+      <remarks>
+            By default each block of text will have the same font color as in the original document.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.IncludeImageInHtml">
+      <summary>
+            Allows to specify how to store images: Inside HTML document as base64 images or as linked separate image files. Default value: false.
+            </summary>
+      <remarks>
+            In this case the component will save images to the file system.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.ImageFolder">
+      <summary>
+            Gets or sets a path to a directory to store images after converting. Notice also to the property "ImageSubFolder". Default value: "".
+            </summary>
+      <remarks>
+            Notice: The folder must exist. The component can't and will not create this folder.<br />
+            The path must be an absolute and starts from a drive letter: "C:\.." or "D:\" etc.<br /><br />
+            Default value: The parent directory of the output HTML document when you are working with files or "String.Empty" when you are working using memory.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.ImageSubFolder">
+      <summary>
+            Gets or sets a folder name which will be created by the component to store images. Default value: "images".
+            </summary>
+      <remarks>
+            For converting physical files or "images" for conversion in memory.<br /><br />
+            Must be without any drive letters "C:\.." or "D:\" etc, only the folder as "myfolder".<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.ImageFileName">
+      <summary>
+            Gets or sets a template name for images. Default value: "image".
+            </summary>
+      <remarks>
+            In case of the "image" value, the extracted images will be named image1.png, image2.png, imageN.png
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.ImageNumStart">
+      <summary>
+            The starting number for naming images in the HTML document. Default value: 1.
+            </summary>
+      <remarks>
+            In case of the "5" value, the extracted images will be named image5.png, image6.png, imageN.png
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CHtmlOptions.Title">
+      <summary>
+            Sets the title for the HTML document. Default value: "Untitled document".
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert PDF to separate HTML pages\Sample.cs" title="How to convert PDF to separate HTML pages in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert PDF to separate HTML pages\Sample.vb" title="How to convert PDF to separate HTML pages in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.PdfImage">
+      <summary>
+            Allows to extract images from PDF
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PdfImage.PageNumber">
+      <summary>
+            Get page number from which this image was extracted.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PdfImage.Width">
+      <summary>
+            Image width in points.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PdfImage.Height">
+      <summary>
+            Image height in points.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PdfImage.XPos">
+      <summary>
+            Position of the image by X.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PdfImage.YPos">
+      <summary>
+            Position of the image by Y.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PdfImage.Picture">
+      <summary>
+            The image data as System.Drawing.Image object.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CExcelOptions">
+      <summary>
+            Sets various properties for the Excel document
+            </summary>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CExcelOptions.#ctor">
+      <summary>
+            Default constructor.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CExcelOptions.CultureInfo">
+      <summary>
+            Gets or sets CultureInfo to convert the string representation to its number equivalent using specified style and culture format. Default value: <see cref="P:System.Globalization.CultureInfo.CurrentCulture" />.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CExcelOptions.SingleSheet">
+      <summary>
+            Specifies to put all pages from PDF document into a single worksheet. Default value: false.
+            </summary>
+      <remarks>
+            In case of value "false" the each page from PDF will be placed on a separate worksheet in Excel.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CExcelOptions.LeftIndent">
+      <summary>
+            Allows to move the sheet content by the N columns from the left. Default value: 0.
+            </summary>
+      <remarks>
+            In other words, it inserts N empty columns from the left.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CExcelOptions.TopIndent">
+      <summary>
+            Allows to move the sheet content by the N rows from the top. Default value: 0.
+            </summary>
+      <remarks>
+            In other words, it inserts N empty rows from the top.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CExcelOptions.SpacingBetweenTables">
+      <summary>
+            Allows to insert N empty rows between tables. Default value: 1.
+            </summary>
+      <remarks>
+            The property is useful only when is the <see cref="P:SautinSoft.PdfFocus.CExcelOptions.SingleSheet">SingleSheet</see> is set to "true".<br /></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CExcelOptions.ConvertNonTabularDataToSpreadsheet">
+      <summary>
+            Convert even a textual data to a table. Default value: true.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Excel\Convert only tables from PDF to Excel\Sample.cs" title="How to convert only tables PDF to Excel and skip all textual data using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Excel\Convert only tables from PDF to Excel\Sample.vb" title="How to convert only tables PDF to Excel and skip all textual data using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CExcelOptions.PreservePageLayout">
+      <summary>
+            Preserve original page layout or place all tabular data before textual data. Default value: true.
+            </summary>
+      <remarks>
+            In case of false, all tables will be placed before textual data.
+            </remarks>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CXmlOptions">
+      <summary>
+            Sets various properties for the XML document
+            </summary>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.CXmlOptions.#ctor">
+      <summary>
+            Creates an object of CXmlOptions class.
+            </summary>
+      <remarks>
+            Sets various properties for the XML document.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CXmlOptions.ConvertNonTabularDataToSpreadsheet">
+      <summary>
+            Convert even a textual data to a table. Default value: true.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CXmlOptions.NodeLevel1">
+      <summary>
+            Set or get a name for root node. Default value: "document".
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CXmlOptions.NodeLevel2">
+      <summary>
+            Set or get a name for node with level 2. Default value: "page".
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CXmlOptions.NodeLevel3">
+      <summary>
+            Set or get a name for node with level 3. Default value: "table".
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CXmlOptions.NodeLevel4">
+      <summary>
+            Set or get a name for node with level 4. Default value: "row".
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CXmlOptions.NodeLevel5">
+      <summary>
+            Set or get a name for node with level 5. Default value: "cell".
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CXmlOptions.UseRowColSpan">
+      <summary>
+            Set or get a value indicating of using rowspan and colspan attributes. Default value: true.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.CImageExtractionOptions">
+      <summary>
+            Allows to set properties to extract only specific images from PDF
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.cs" title="Extract all images with width and height more than 200px in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.vb" title="Extract all images with width and height more than 200px in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageExtractionOptions.RasterizeComplexGraphics">
+      <summary>
+            Additionally convert all vector graphics to raster images or not. Default value: false.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Extract Images from PDF\Extract all images and vector graphics from PDF\Sample.cs" title="Extract all images and vector graphics from PDF in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Extract Images from PDF\Extract all images and vector graphics from PDF\Sample.vb" title="Extract all images and vector graphics from PDF in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageExtractionOptions.MinSize">
+      <summary>
+            Specify minimal size of extracted images in pixels. Default value: null.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.cs" title="Extract all images with width and height more than 200px in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.vb" title="Extract all images with width and height more than 200px in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CImageExtractionOptions.MaxSize">
+      <summary>
+            Specify maximal size of extracted images in pixels. Default value: null.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.cs" title="Extract all images with width and height more than 200px in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.vb" title="Extract all images with width and height more than 200px in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.#ctor">
+      <summary>
+            Creates an object of the <see cref="T:SautinSoft.PdfFocus" /> class
+            </summary>
+      <example>
+        <code>
+            SautinSoft.PdfFocus f = new SautinSoft.PdfFocus();
+            </code>
+        <code lang="vbnet">
+            Dim f As New SautinSoft.PdfFocus()
+            </code>
+      </example>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert PDF to Word in memory\Sample.cs" title="Convert PDF to Word in memory in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert PDF to Word in memory\Sample.vb" title="Convert PDF to Word in memory in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.CopyrightText">
+      <summary>
+            Gets and sets the text which will be placed on the each page at the top-left corner of the resulting document. For example, "Created by ....". Default value: <see cref="F:System.String.Empty">String.Empty</see>.
+            </summary>
+      <remarks>
+            You may specify any textual string, for example "Created by Simpson Family". And the each page of the resulting document will contains this text.<br />
+            P.S. This property doesn't affect into XML and Excel conversion.<br />
+            This property doesn't allow to format position, font size, family and so forth for the text. Because PDF Focus .Net is just a library to make conversion.<br />
+            If you need the full control under the produced document or want modify it, you may try another our component Document .Net:<br />
+            https://www.sautinsoft.com/products/document/.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.WordOptions">
+      <summary>
+            Allows to specify various properties for Word document: format (Docx or Rtf), how to detect tables and so forth.
+            </summary>
+      <remarks>
+            All properties are already set to their defaults:<br /><br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.Format" /> = eWordDocument.Docx;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.DetectTables" /> = false;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.RenderMode" /> = eRenderMode.Flowing;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.KeepCharScaleAndSpacing" /> = true;<br /><see cref="P:SautinSoft.PdfFocus.CWordOptions.ShowInvisibleText" /> = false;<br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Overview of all properties to convert PDF to Word\Sample.cs" title="Overview of all properties to convert PDF to Word in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Overview of all properties to convert PDF to Word\Sample.vb" title="Overview of all properties to convert PDF to Word in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.ImageOptions">
+      <summary>
+            Set the options for the produced images.
+            </summary>
+      <remarks>
+            For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.HtmlOptions">
+      <summary>
+            Gets and sets various properties for HTML document: title, how to store images, inline CSS and so forth.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.ExcelOptions">
+      <summary>
+            Set properties for the Excel document
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.XmlOptions">
+      <summary>
+            Set properties for the XML document
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.OCROptions">
+      <summary>
+            Set the properties to attach any OCR library.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\OCR\Perform OCR using free Nicomsoft SDK\Sample.cs" title="Perform OCR using free Nicomsoft SDK in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\OCR\Perform OCR using free Nicomsoft SDK\Sample.vb" title="Perform OCR using free Nicomsoft SDK in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.ImageExtractionOptions">
+      <summary>
+            Allows to set properties to extract only specific images from PDF.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.cs" title="Extract all images with width and height more than 200px in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Extract Images from PDF\Extract all images with width and height more than 200px\Sample.vb" title="Extract all images with width and height more than 200px in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.Exception">
+      <summary>
+            Get an exception details in case of conversion failed.
+            </summary>
+      <remarks>
+            This is a variable of standard <see cref="T:System.Exception" /> class.<br /><br />
+            For example, if you get an error during PDF transformation, please take a look at the <see cref="P:System.Exception.Message" /> to see error's details.<br /><br /></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.Serial">
+      <summary>
+            Allows to activate your copy of the PDF Focus .Net after purchasing
+            </summary>
+      <remarks>
+            We advise you to download the most freshest version from <a href="https://www.sautinsoft.com/" target="_blank">https://www.sautinsoft.com</a>.
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Product Activation\Sample.cs" title="Activation of PDF Focus .Net after purchasing in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Product Activation\Sample.vb" title="Activation of PDF Focus .Net after purchasing in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.Password">
+      <summary>
+            Set a password for password-protected PDF documents.
+            </summary>
+      <remarks>
+            Some PDF files can be protected by password even for opening/reading. This property is necessary only when you are converting protected PDF document. Usually it's unnecessary.<br /><br /></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.Version">
+      <summary>
+            Get the current version of the component.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PageCount">
+      <summary>
+            Get the number of pages in the PDF document.
+            </summary>
+      <remarks>
+            This property will have a value after calling the method <see cref="M:SautinSoft.PdfFocus.OpenPdf(System.String)">Open</see>.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Text\Extract Text from 2nd-3rd pages of PDF\Sample.cs" title="Extract Text from 2nd-3rd pages of PDF document using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Text\Extract Text from 2nd-3rd pages of PDF\Sample.vb" title="Extract Text from 2nd-3rd pages of PDF document using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.OpenPdf(System.IO.Stream)">
+      <summary>
+            Opens PDF document as <see cref="T:System.IO.Stream" /> object.
+            </summary>
+      <param name="stream">
+        <see cref="T:System.IO.Stream" /> object which contains PDF document</param>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.OpenPdf(System.Byte[])">
+      <summary>
+            Opens PDF document as byte stream.
+            </summary>
+      <param name="bytes">Byte stream which contains PDF document</param>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert PDF to Word in memory\Sample.cs" title="Export PDF to Word in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert PDF to Word in memory\Sample.vb" title="Export PDF to Word in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.OpenPdf(System.String)">
+      <summary>
+            Open a PDF file.
+            </summary>
+      <param name="fileName">The full path to the PDF document.</param>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.OpenPdf(System.Uri)">
+      <summary>
+            Open PDF document as <see cref="T:System.Uri" />.
+            </summary>
+      <param name="uri">
+        <see cref="T:System.Uri" /> path to the PDF document.</param>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert URL-PDF from Internet to a Word file\Sample.cs" title="How to convert URL-PDF from Internet to a Word file in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert URL-PDF from Internet to a Word file\Sample.vb" title="How to convert URL-PDF from Internet to a Word file in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ClosePdf">
+      <summary>
+            Releases the PDF document from memory.
+            </summary>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.GetPageSize(System.Int32)">
+      <summary>
+            Returns the page height and width in points for a specific page
+            </summary>
+      <remarks>
+            Point is the 1/72 of inch.<br />
+            Let us say, you have a "Letter" page size 8,5 x 11 inches, you will get this size in points:<br /><br />
+            Width: 8,5 * 72 = 612 points.<br />
+            Height: 11 * 72 = 792 points.
+            </remarks>
+      <param name="pageNumber">A specific page number in the PDF document</param>
+      <returns>
+            Returns the structure <see cref="T:System.Drawing.SizeF" /> with Width and Height properties.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToImage(System.String,System.Int32)">
+      <summary>
+            Saves the specific page of the PDF document as image file.
+            </summary>
+      <param name="fileName">Path to image file</param>
+      <param name="page">Page which you want to save as image</param>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF 1st page to PNG file\Sample.cs" title="How to convert PDF 1st page to PNG file in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF 1st page to PNG file\Sample.vb" title="How to convert PDF 1st page to PNG file in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToImage(System.String,System.String)">
+      <summary>
+            Saves all pages of PDF document as image files.
+            </summary>
+      <param name="outFolder">Full path to existing folder where to save images</param>
+      <param name="templateFileName">Template file name for image files</param>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF files to 300-dpi TIFF files\Sample.cs" title="Convert PDF files to 300-dpi TIFF files in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF files to 300-dpi TIFF files\Sample.vb" title="Convert PDF files to 300-dpi TIFF files in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToImage(System.String,System.String,System.String[]@)">
+      <summary>
+            Saves all pages of PDF document as image files and returns their full paths.
+            </summary>
+      <param name="outFolder">Full path to existing folder where to save images.</param>
+      <param name="templateFileName">Template file name for image files.</param>
+      <param name="outputFileNames">An array with full paths to the produced image files.</param>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToDrawingImage(System.Int32)">
+      <summary>
+            Saves the specific page of the PDF document into <see cref="T:System.Drawing.Image" />.
+            </summary>
+      <param name="page">The page to save.</param>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+        <see cref="T:System.Drawing.Image" /> object - converting successfully<br />
+            null - converting failed         
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert custom PDF page to System.Drawing.Image object\Sample.cs" title="Convert custom PDF page to System.Drawing.Image object in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert custom PDF page to System.Drawing.Image object\Sample.vb" title="Convert custom PDF page to System.Drawing.Image object in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToMultipageTiff">
+      <summary>
+            Saves the PDF document as multipage-TIFF document.
+            </summary>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+            Multipage-TIFF document as byte stream - converting successfully.<br />
+            null - in case of converting failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\ASP.Net - Export PDF to Multipage TIFF\Default.aspx.cs" title="ASP.Net - Export PDF to Multipage TIFF in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\ASP.Net - Export PDF to Multipage TIFF\Default.aspx.vb" title="ASP.Net - Export PDF to Multipage TIFF in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToMultipageTiff(System.String)">
+      <summary>
+            Save the PDF document as multipage-TIFF document.
+            </summary>
+      <param name="fileName">Path to multipage TIFF file</param>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF file to Multipage TIFF file\Sample.cs" title="How to convert PDF file to Multipage TIFF file in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF file to Multipage TIFF file\Sample.vb" title="How to convert PDF file to Multipage TIFF file in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToMultipageTiff(System.Drawing.Imaging.EncoderValue)">
+      <summary>
+            Save the PDF document as multipage-TIFF image.
+            </summary>
+      <param name="compressionType">Allows to set compression type: CompressionCCITT3, CompressionCCITT4, CompressionLZW, CompressionRle, CompressionNone</param>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+            Multipage-TIFF image as byte stream - converting successfully.<br />
+            null - in case of converting failed.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToMultipageTiff(System.String,System.Drawing.Imaging.EncoderValue)">
+      <summary>
+            Save the PDF document as multipage-TIFF image.
+            </summary>
+      <param name="fileName">Path to multipage TIFF file</param>
+      <param name="compressionType">Allows to set compression type: CompressionCCITT3, CompressionCCITT4, CompressionLZW, CompressionRle, CompressionNone</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\Convert PDF file to Black&amp;White Multipage-TIFF\Sample.cs" title="How to convert PDF file to Black&amp;White Multipage-TIFF in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\Convert PDF file to Black&amp;White Multipage-TIFF\Sample.vb" title="How to convert PDF file to Black&amp;White Multipage-TIFF in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToImage(System.Int32)">
+      <summary>
+            Saves the specific page of the PDF document as image.
+            </summary>
+      <param name="page">Page which you want to save as image</param>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+            Image as byte stream in specified <see cref="T:System.Drawing.Imaging.ImageFormat" /> - converting successfully<br />
+            null - converting failed         
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Images\ASP.Net - Export PDF to Jpeg\Default.aspx.cs" title="ASP.Net - Export PDF to Jpeg in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Images\ASP.Net - Export PDF to Jpeg\Default.aspx.vb" title="ASP.Net - Export PDF to Jpeg in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToImage">
+      <summary>
+            Saves all pages of the PDF document into ArrayList with images as byte streams.
+            </summary>
+      <remarks>
+            Before converting you may set various image properties using the property <see cref="P:SautinSoft.PdfFocus.ImageOptions">ImageOptions</see>. For example, set:<ul><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.Dpi">Dpi</see> - image resolution in dots per inch. Default value: 200</li><li><see cref="P:SautinSoft.PdfFocus.CImageOptions.ImageFormat">ImageFormat</see> - format for produced images as standard <see cref="T:System.Drawing.Imaging.ImageFormat" />. Default value: Png</li><li><see cref="T:SautinSoft.PdfFocus.CImageOptions.eColorDepth">ColorDepth</see> - color depth or bit depth is the number of bits used to represent the color of a single pixel. Default value: 24 bit RGB</li></ul></remarks>
+      <returns>
+        <see cref="T:System.Collections.ArrayList" /> containing images as byte streams, where each image corresponds to each PDF page<br /><br />
+            not null - converting successfully<br />
+            null - converting failed         
+            </returns>
+    </member>
+    <member name="T:SautinSoft.PdfFocus.PageProgressDelegate">
+      <summary>
+            Allows to define a progress indicator
+            </summary>
+      <param name="current">current page</param>
+      <param name="total">total pages</param>
+    </member>
+    <member name="E:SautinSoft.PdfFocus.NotifyPageProgress">
+      <summary>
+            Allows to define a progress indicator
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.RenderPages">
+      <summary>
+            Allows to specify a set of page ranges for converting
+            </summary>
+      <remarks>
+            Let us say, we decide to convert these page ranges: 1 to 2, 5 to 7.<br />
+            The code in C# will look so:
+            f.RenderPages = new int[][]<br />
+            {
+                new int [] {1,2},
+                new int [] {5,7}
+            };
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.OptimizeImages">
+      <summary>
+            Gets or sets a value indicating whether to merge adjacent images into a one. Default value: false.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PreserveImages">
+      <summary>
+            Gets or sets a value indicating whether to load images from PDF or skip them. Default value: true.
+            </summary>
+      <remarks>
+            In case of 'false' you may significantly save a time of loading a PDF document and using of memory.<br />
+            we recommend to set this property to 'false' when you are need only in textual data from PDF.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.EmbeddedJpegQuality">
+      <summary>
+            Gets and sets the value indicating Jpeg quality level for the images embedded in the output documents. Affects only to the images which embedded in Jpeg format. Default value: 90.
+            </summary>
+      <remarks>
+        <p>The amount of JPEG compression should really depend on the usage purpose for the JPEG, and the contents of the JPEG.</p>
+        <p>The quality level one should choose when exporting an image to JPEG is highly dependent upon the kind of detail contained within the image.</p>
+        <p>An image of a smooth blue sky or a sunset sky with large areas of orange gradient should probably use a high quality setting, 90-100. An image that contains nothing but complex detail could probably get away with a quality setting of 50-60, possibly even lower.There is no single "best" JPEG compression setting, and depending on the type and complexity of detail(or lack of complexity and detail), you may find yourself using 40-60, 70-80, or 90-100 as appropriate for the photo(s) you are exporting.</p>
+        <p>Here is a test with quality from left to right: 10, 20, 30, 40, 55, 70, 80, 90, 100%.<br />File sizes for the full files are: 210k, 278k, 347k, 477k, 601k, 709k, 987k, 1.7M, 7M.</p>
+      </remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.EmbeddedImagesFormat">
+      <summary>
+            Gets and sets the desired format to store images in the resulting document. Default value: <see cref="F:SautinSoft.PdfFocus.eImageFormat.Auto">eImageFormat.Auto</see>.
+            </summary>
+      <remarks>
+        <list type="bullet">
+          <item>
+            <para>
+              <see cref="F:SautinSoft.PdfFocus.eImageFormat.Auto">eImageFormat.Auto</see> - In this case the images will be stored in their original format. In other words, the JPEG-images will be stored using Jpeg codec, the all others as PNG.</para>
+          </item>
+          <item>
+            <para>
+              <see cref="F:SautinSoft.PdfFocus.eImageFormat.Png">eImageFormat.Png</see> - Force to convert all images into Png format.</para>
+          </item>
+          <item>
+            <para>
+              <see cref="F:SautinSoft.PdfFocus.eImageFormat.Jpeg">eImageFormat.Jpeg</see> - Force to convert all images into Jpeg format. Be careful: using Jpeg for images you can reduce the PDF size, but could lose the transparency.</para>
+          </item>
+        </list>
+            Using this property together with the <see cref="P:SautinSoft.PdfFocus.EmbeddedJpegQuality">JpegQuality</see> allows you to reduce to size of the output document.</remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\How to set a location of images during PDF to HTML\Sample.cs" title="How to set a location of images during PDF to HTML in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\How to set a location of images during PDF to HTML\Sample.vb" title="How to set a location of images during PDF to HTML in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.PreserveGraphics">
+      <summary>
+            Gets or sets a value indicating whether to load vector graphics from PDF or skip it. Default value: true.
+            </summary>
+      <remarks>
+            In case of 'false' you may significantly save a time of loading a PDF document and using of memory.<br />
+            We recommend to set this property to 'false' when you are need only in textual data from PDF.<br /></remarks>
+    </member>
+    <member name="P:SautinSoft.PdfFocus.RenderPagesString">
+      <summary>
+            Sets a custom page range for converting: "1-3, 5, 8-13, 16".
+            </summary>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToWord(System.String,System.Int32,System.Int32)">
+      <summary>
+            Saves the specific PDF page or range of pages in <see cref="T:SautinSoft.PdfFocus.CWordOptions.eWordDocument">Word</see> file.
+            </summary>
+      <param name="fileName">Path to the Word file</param>
+      <param name="fromPage">The starting page for export in Word document</param>
+      <param name="toPage">The ending page for export in Word document</param>
+      <returns>
+            0 - saving successfully.<br />
+            2 - can't create output file, check the output path.<br />
+            3 - problem with rendering of Word (Docx or RTF) document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+      <remarks>
+            Before converting you may set some properties for produced Word document using the property <see cref="P:SautinSoft.PdfFocus.WordOptions">WordOptions</see><br /><br />
+            For example, set:<ul><li><see cref="T:SautinSoft.PdfFocus.CWordOptions.eWordDocument">Format</see> - set format for resulting Word document</li></ul></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert diapason of PDF pages to Word file\Sample.cs" title="Convert diapason of PDF pages to Word file in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert diapason of PDF pages to Word file\Sample.vb" title="Convert diapason of PDF pages to Word file in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToWord(System.String)">
+      <summary>
+            Saves all pages of the PDF document in <see cref="T:SautinSoft.PdfFocus.CWordOptions.eWordDocument">Word</see> file.
+            </summary>
+      <param name="fileName">Path to the Word file</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - problem with rendering of Word (Docx or RTF) document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+      <remarks>
+            Before converting you may set some properties for produced Word document using the property <see cref="P:SautinSoft.PdfFocus.WordOptions">WordOptions</see><br /><br />
+            For example, set:<ul><li><see cref="T:SautinSoft.PdfFocus.CWordOptions.eWordDocument">Format</see> - set format for resulting Word document</li></ul></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert PDF file to Word file\Sample.cs" title="Convert PDF file to Word file in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert PDF file to Word file\Sample.vb" title="Convert PDF file to Word file in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToWord(System.IO.Stream,System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to a Word (Docx or RTF) document as a Stream object.
+            </summary>
+      <param name="stream">Stream object to save a Word document. Stream must be not null.</param>
+      <param name="fromPage">The starting page for exporting to Word</param>
+      <param name="toPage">The ending page for exporting to Word</param>
+      <returns>
+            0 - saving successfully.<br />
+            2 - problem with parsing of PDF document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.<br />
+            3 - problem with rendering of Word (Docx or RTF) document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert PDF to Word in memory\Sample.cs" title="How to convert PDF to Word in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert PDF to Word in memory\Sample.vb" title="How to convert PDF to Word in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToWord(System.IO.Stream)">
+      <summary>
+            Saves all pages of the PDF document to Word (Docx or RTF) as a Stream object.
+            </summary>
+      <param name="stream">Stream object to save a Word document. Stream must be not null.</param>
+      <returns>
+            0 - saving successfully.<br />
+            2 - problem with parsing of PDF document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.<br />
+            3 - problem with rendering of Word (Docx or RTF) document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert PDF to Word in memory\Sample.cs" title="How to convert PDF to Word in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert PDF to Word in memory\Sample.vb" title="How to convert PDF to Word in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToWord(System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to a Word (Docx or RTF) document and returns it as array of bytes.
+            </summary>
+      <param name="fromPage">The starting page for exporting to Word</param>
+      <param name="toPage">The ending page for exporting to Word</param>
+      <returns>
+            Array of bytes with Word document - in case of converting successful.<br />
+            null - in case of converting failed. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\Convert each PDF page to separate Docx documents\Sample.cs" title="How to convert each PDF page to separate Docx documents in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\Convert each PDF page to separate Docx documents\Sample.vb" title="How to convert each PDF page to separate Docx documents in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToWord">
+      <summary>
+            Saves all pages of the PDF document into a Word (Docx or RTF) document and returns it as array of bytes
+            </summary>
+      <returns>
+            Array of bytes with a Word (Docx or RTF) document document - in case of converting successful.<br />
+            null - in case of converting failed. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Word\ASP.Net - Export PDF to Word\Default.aspx.cs" title="ASP.Net - Export PDF to Word using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Word\ASP.Net - Export PDF to Word\Default.aspx.vb" title="ASP.Net - Export PDF to Word using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToText(System.String,System.Int32,System.Int32)">
+      <summary>
+            Save the specific PDF page or range of pages in Text file.
+            </summary>
+      <param name="fileName">Path to the Text file</param>
+      <param name="fromPage">The starting page for export in Text document</param>
+      <param name="toPage">The ending page for export in Text document</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Text\Extract Text from 2nd-3rd pages of PDF\Sample.cs" title="How to extract Text from 2nd-3rd pages of PDF in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Text\Extract Text from 2nd-3rd pages of PDF\Sample.vb" title="How to extract Text from 2nd-3rd pages of PDF in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToText(System.Int32,System.Int32)">
+      <summary>
+            Save the specific PDF page or the range of pages as Text document and return it as <see cref="T:System.String" />.
+            </summary>
+      <param name="fromPage">The starting page for export in Text document</param>
+      <param name="toPage">The ending page for export in Text document</param>
+      <returns>
+            String with Unicode Text - in case of converting successful<br />
+            null - in case of converting failed        
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Text\Extract Text from PDF only from 1st page in memory\Sample.cs" title="How to extract Text from 1st page of PDF in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Text\Extract Text from PDF only from 1st page in memory\Sample.vb" title="How to Text from 1st page of PDF in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToText(System.String)">
+      <summary>
+            Saves all pages of the PDF document as Text file.
+            </summary>
+      <param name="fileName">Path to the Text file</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Text\Convert PDF file to Text file\Sample.cs" title="Convert PDF file to Text file in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Text\Convert PDF file to Text file\Sample.vb" title="Convert PDF file to Text file in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToText">
+      <summary>
+            Saves all pages of the PDF document as Text document and return it as <see cref="T:System.String" />.
+            </summary>
+      <returns>
+            String with Unicode Text - in case of converting successful<br />
+            null - in case of converting failed        
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Text\ASP.Net - Extract Text from PDF\Default.aspx.cs" title="ASP.Net - Extract Text from PDF in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Text\ASP.Net - Extract Text from PDF\Default.aspx.vb" title="ASP.Net - Extract Text from PDF in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToHtml(System.IO.Stream,System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages into a HTML (Fixed or Flowing) format as a Stream object.
+            </summary>
+      <param name="stream">Stream object to save a HTML document. Stream must be not null.</param>
+      <param name="fromPage">The starting page to export into HTML.</param>
+      <param name="toPage">The ending page to export into HTML.</param>
+      <returns>
+            0 - Converting successfully.<br />
+            2 - An issue occurred during the parsing of PDF document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.<br />
+            3 - An issue occurred during the rendering into HTML format. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToHtml(System.IO.Stream)">
+      <summary>
+            Saves all pages of the PDF document into HTML (Fixed or Flowing) format as a Stream object.
+            </summary>
+      <param name="stream">Stream object to save a HTML document. Stream must be not null.</param>
+      <returns>
+            0 - Converting successfully.<br />
+            2 - An issue occurred during the parsing of PDF document. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.<br />
+            3 - An issue occurred during the rendering into HTML format. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToHtml(System.String,System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to HTML file
+            </summary>
+      <param name="fileName">Path to the HTML file</param>
+      <param name="fromPage">The starting page for exporting to HTML</param>
+      <param name="toPage">The ending page for exporting to HTML</param>
+      <returns>
+            0 - Converting successfully.<br />
+            2 - Can't create an output HTML file, please check the path to the file.<br />
+            3 - An issue occurred during the rendering into HTML format. Please email this PDF document at <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a>.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert PDF to HTML in Multi-thread mode\Sample.cs" title="Convert PDF to HTML in Multi-thread mode using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert PDF to HTML in Multi-thread mode\Sample.vb" title="Convert PDF to HTML in Multi-thread mode using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToHtml(System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to HTML document as string object.
+            </summary>
+      <param name="fromPage">The starting page to export into HTML.</param>
+      <param name="toPage">The ending page to export into HTML.</param>
+      <returns>
+            HTML document as String object - in case of converting successfully.<br />
+            null - in case of converting failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert PDF to separate HTML pages\Sample.cs" title="How to convert PDF to separate HTML pages in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert PDF to separate HTML pages\Sample.vb" title="How to convert PDF to separate HTML pages in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToHtml(System.Int32,System.Int32,System.Collections.Generic.List{System.Drawing.Image})">
+      <summary>
+            Saves a specific PDF page or diapason of pages to HTML document and returns it as string
+            </summary>
+      <param name="fromPage">The starting page for exporting to HTML</param>
+      <param name="toPage">The ending page for exporting to HTML</param>
+      <param name="extractedImages">The list with extracted images, must be not null.</param>
+      <returns>
+            String with HTML document - in case of converting successful.<br />
+            null - in case of converting failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert PDF to HTML in memory and get List with all images\Sample.cs" title="How to convert PDF to HTML in memory and get List with all images in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert PDF to HTML in memory and get List with all images\Sample.vb" title="How to convert PDF to HTML in memory and get List with all images in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToHtml(System.String)">
+      <summary>
+            Saves all pages of the PDF document to HTML file
+            </summary>
+      <param name="fileName">Path to the HTML file</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert PDF file to HTML file\Sample.cs" title="How to convert PDF file to HTML file using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert PDF file to HTML file\Sample.vb" title="How to convert PDF file to HTML file using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToHtml">
+      <summary>
+            Saves all pages of the PDF document into HTML document as string object.
+            </summary>
+      <returns>
+            HTML document as String object - in case of converting successfully.<br />
+            null - in case of converting failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to HTML\Convert PDF to HTML in memory\Sample.cs" title="How to convert PDF to HTML in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to HTML\Convert PDF to HTML in memory\Sample.vb" title="How to convert PDF to HTML in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToExcel(System.String,System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to Excel file
+            </summary>
+      <param name="fileName">Path to the Excel file</param>
+      <param name="fromPage">The starting page for exporting to the Excel</param>
+      <param name="toPage">The ending page for exporting to the Excel</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToExcel(System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to Excel workbook and returns it as byte array
+            </summary>
+      <param name="fromPage">The starting page for exporting to Excel</param>
+      <param name="toPage">The ending page for exporting to Excel</param>
+      <returns>
+            Array of bytes with Excel document - in case of converting successful.<br />
+            null - in case of converting failed.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToExcel(System.String)">
+      <summary>
+            Saves all pages of the PDF document to Excel file
+            </summary>
+      <param name="fileName">Path to the Excel file</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Excel\Convert PDF file to Excel file\Sample.cs" title="How to convert PDF file to Excel file using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Excel\Convert PDF file to Excel file\Sample.vb" title="How to convert PDF file to Excel file using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToExcel">
+      <summary>
+            Saves all pages of the PDF document into Excel workbook and returns it as byte array
+            </summary>
+      <returns>
+            Array of bytes with Excel document - in case of converting successful.<br />
+            null - in case of converting failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to Excel\Convert PDF to Excel workbook in memory\Sample.cs" title="How to convert PDF to Excel in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to Excel\Convert PDF to Excel workbook in memory\Sample.vb" title="How to convert PDF to Excel in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToXml(System.String,System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to XML file
+            </summary>
+      <param name="fileName">Path to the XML file</param>
+      <param name="fromPage">The starting page for exporting to XML</param>
+      <param name="toPage">The ending page for exporting to XML</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToXml(System.Int32,System.Int32)">
+      <summary>
+            Saves a specific PDF page or diapason of pages to XML document and returns it as string
+            </summary>
+      <param name="fromPage">The starting page for exporting to XML</param>
+      <param name="toPage">The ending page for exporting to XML</param>
+      <returns>
+            String with XML document - in case of converting successful.<br />
+            null - in case of converting failed.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToXml(System.String)">
+      <summary>
+            Saves all pages of the PDF document to XML file
+            </summary>
+      <param name="fileName">Path to the XML file</param>
+      <returns>
+            0 - saving successfully<br />
+            2 - can't create output file, check the output path<br />
+            3 - saving failed, email to <a href="mailto:support@sautinsoft.com">support@sautinsoft.com</a></returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to XML\Convert PDF file to XML file\Sample.cs" title="How to convert PDF file to XML file using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to XML\Convert PDF file to XML file\Sample.vb" title="How to convert PDF file to XML file using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ToXml">
+      <summary>
+            Saves all pages of the PDF document into XML document and returns it as string
+            </summary>
+      <returns>
+            String with XML document - in case of converting successful.<br />
+            null - in case of converting failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\PDF to XML\Convert PDF to XML in memory\Sample.cs" title="How to convert PDF to XML in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\PDF to XML\Convert PDF to XML in memory\Sample.vb" title="How to convert PDF to XML in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ExtractImages(System.Int32,System.Int32)">
+      <summary>
+            Extract all images from PDF document from specific pages.
+            </summary>
+      <param name="from">The starting page for extracting images.</param>
+      <param name="to">The ending page for extracting images.</param>
+      <returns>
+            List with <see cref="T:SautinSoft.PdfFocus.PdfImage">PdfImage</see> objects.<br />
+            Null - in case of extraction failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Extract Images from PDF\Extract all images from 1st PDF page\Sample.cs" title="Extract all images from 1st PDF page in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Extract Images from PDF\Extract all images from 1st PDF page\Sample.vb" title="Extract all images from 1st PDF page in VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.PdfFocus.ExtractImages">
+      <summary>
+            Extract all images from a whole PDF document.
+            </summary>
+      <returns>
+            List with <see cref="T:SautinSoft.PdfFocus.PdfImage">PdfImage</see> objects.<br />
+            Null - in case of extraction failed.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\PDF Focus .Net\Code samples\CSharp\Extract Images from PDF\Extract all images and vector graphics from PDF\Sample.cs" title="Extract all images and vector graphics from PDF in C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\PDF Focus .Net\Code samples\VB.Net\Extract Images from PDF\Extract all images and vector graphics from PDF\Sample.vb" title="Extract all images and vector graphics from PDF in VB.Net">
+        </code>
+      </example>
+    </member>
+    <!-- Badly formed XML comment ignored for member "T:SautinSoft.Document.Html.CharsetDetector" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Html.RandomAccessFileOrArray.ReadShortLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Html.RandomAccessFileOrArray.ReadUnsignedShortLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Html.RandomAccessFileOrArray.ReadCharLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Html.RandomAccessFileOrArray.ReadIntLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Html.RandomAccessFileOrArray.ReadUnsignedInt" -->
+    <!-- Badly formed XML comment ignored for member "T:SautinSoft.Document.Pdf.Reader.CFFFont.Font" -->
+    <!-- Badly formed XML comment ignored for member "T:SautinSoft.Document.Pdf.Reader.PdfArray" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Pdf.Reader.PdfDictionary.Get(SautinSoft.Document.Pdf.Reader.PdfName)" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Pdf.Reader.PdfEncodings.ConvertToBytes(System.String,System.String)" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Pdf.Reader.PdfEncodings.ConvertToBytes(System.Char,System.String)" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Pdf.Reader.PdfEncodings.ConvertCmap(System.String,System.Byte[])" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Pdf.Reader.PdfEncodings.ConvertCmap(System.String,System.Byte[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Pdf.Reader.PdfName.CompareTo(SautinSoft.Document.Pdf.Reader.PdfName)" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.Pdf.Reader.PdfNull.#ctor" -->
+    <!-- Badly formed XML comment ignored for member "T:SautinSoft.Document.Pdf.Reader.PdfNumber" -->
+    <!-- Badly formed XML comment ignored for member "P:SautinSoft.Document.Pdf.Reader.Vector.Length" -->
+    <!-- Badly formed XML comment ignored for member "P:SautinSoft.Document.Pdf.Reader.Vector.LengthSquared" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.ByteBuffer.SetCacheSize(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.RandomAccessFileOrArray.ReadShortLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.RandomAccessFileOrArray.ReadUnsignedShortLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.RandomAccessFileOrArray.ReadCharLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.RandomAccessFileOrArray.ReadIntLE" -->
+    <!-- Badly formed XML comment ignored for member "M:SautinSoft.Document.RandomAccessFileOrArray.ReadUnsignedInt" -->
+    <!-- Badly formed XML comment ignored for member "P:sautinsoftlocal.IRange.Characters" -->
+  </members>
+</doc>

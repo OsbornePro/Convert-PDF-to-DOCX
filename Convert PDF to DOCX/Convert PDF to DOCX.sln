@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert PDF to DOCX", "Convert PDF to DOCX\Convert PDF to DOCX.csproj", "{902B7C06-8323-4F7A-8FB4-52CD6FDB7ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{902B7C06-8323-4F7A-8FB4-52CD6FDB7ACB}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{902B7C06-8323-4F7A-8FB4-52CD6FDB7ACB}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{902B7C06-8323-4F7A-8FB4-52CD6FDB7ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902B7C06-8323-4F7A-8FB4-52CD6FDB7ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B65407-F8D9-412C-AD33-93D36F61D5EB}
+	EndGlobalSection
+EndGlobal

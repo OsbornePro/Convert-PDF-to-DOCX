@@ -1,0 +1,12 @@
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\obj\Debug\Convert PDF to DOCX.csprojAssemblyReference.cache
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\obj\Debug\Convert_PDF_to_DOCX.Form1.resources
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\obj\Debug\Convert_PDF_to_DOCX.Properties.Resources.resources
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\obj\Debug\Convert PDF to DOCX.csproj.GenerateResource.cache
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\bin\Debug\Convert PDF to DOCX.exe.config
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\bin\Debug\Convert PDF to DOCX.exe
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\bin\Debug\Convert PDF to DOCX.pdb
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\bin\Debug\SautinSoft.PdfFocus.dll
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\bin\Debug\SautinSoft.PdfFocus.xml
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\obj\Debug\Convert PDF to DOCX.csproj.CopyComplete
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\obj\Debug\Convert PDF to DOCX.exe
+C:\Users\rob.osborne\source\repos\Convert PDF to DOCX\Convert PDF to DOCX\obj\Debug\Convert PDF to DOCX.pdb
