@@ -1,5 +1,6 @@
 # Convert PDF to DOCX
 Simple application that uses Microsoft Word application to convert PDF files to DOCX
+![Convert PDF to DOCX](https://raw.githubusercontent.com/OsbornePro/Convert-PDF-to-DOCX/main/ConvertPDFtoDOCXimage.png)
 
 ### How Do I Use This?
 1. Drag a PDF file from file explorer into the white area of the window
