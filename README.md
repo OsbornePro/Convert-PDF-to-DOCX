@@ -1,5 +1,5 @@
 # Convert PDF to DOCX
-![OsbornePro LLC.](https://raw.githubusercontent.com/tobor88/OsbornePro-The-Blue-Team-PowerShell-Security-Package/master/WEF%20Application/WEF/WEF/wwwroot/images/Logo.png)
+![OsbornePro LLC.](https://raw.githubusercontent.com/tobor88/OsbornePro-The-Blue-Team-PowerShell-Security-Package/master/WEF%20Application/WEF/WEF/wwwroot/images/Logo.png)<br>
 Simple application that uses Microsoft Word application to convert PDF files to DOCX
 ![Convert PDF to DOCX](https://raw.githubusercontent.com/OsbornePro/Convert-PDF-to-DOCX/main/ConvertPDFtoDOCXimage.png)
 
